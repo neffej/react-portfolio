@@ -13,7 +13,7 @@ export default function About(){
             </div>
             <div className='row'>
                 <div className='col-lg-4 aos-init aos-animate' data-aos="fade-right">
-                    <img src="https://i.imgur.com/lGptTms.jpg" className='img-fluid' alt='headshot of Eric Neff'></img>
+                    <img src="https://i.imgur.com/rnRjMxh.jpg" className='img-fluid' alt='headshot of Eric Neff'></img>
                 </div>
                 <div className='col-lg-8 pt-4 pt-lg-0 content aos-init aos-animate' data-aos="fade-left">
                     <h3>MERN Stack Junior Developer</h3>

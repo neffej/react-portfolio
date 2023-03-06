@@ -5,18 +5,16 @@ import About from './components/pages/About'
 import Resume from './components/pages/Resume'
 import Contact from './components/pages/Contact'
 import Portfolio from './components/Portfolio'
-import Navigation from './components/Navigation';
  
 
 function App() {
   return (
-  <div className="w-0">
-    {/* <NavTabs /> */}
+  <div>
     <Header />
     <Hero />
     <About/>
     <Resume />
-    {/* <Portfolio /> */}
+    <Portfolio />
     <Contact />
    </div>
   );
