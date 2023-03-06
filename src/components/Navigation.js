@@ -38,12 +38,12 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#Weather"
-          onClick={() => handlePageChange('Weather')}
+          href="#GameTrack"
+          onClick={() => handlePageChange('GameTrack')}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Weather' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'GameTrack' ? 'nav-link active' : 'nav-link'}
         >
-          Weather
+          GameTrack
         </a>
       </li>
       <li className="nav-item">

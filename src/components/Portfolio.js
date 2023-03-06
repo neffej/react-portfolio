@@ -4,7 +4,7 @@ import Home from './pages/Projects/Home';
 import Asteroids from './pages/Projects/Asteroids';
 import Calculator from './pages/Projects/Calculator';
 import SQL from './pages/Projects/SQL-employees';
-import Weather from './pages/Projects/Weather';
+import GameTrack from './pages/Projects/GameTrack';
 import Node from './pages/Projects/Node';
 import Network from './pages/Projects/Network';
 import "./Portfolio.css"
@@ -25,8 +25,8 @@ export default function Portfolio(){
         if (currentPage === 'SQL'){
             return <SQL />;
         }
-        if (currentPage === 'Weather'){
-            return <Weather />;
+        if (currentPage === 'GameTrack'){
+            return <GameTrack />;
         }
         if (currentPage === 'Node'){
             return <Node />;

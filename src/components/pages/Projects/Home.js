@@ -22,7 +22,7 @@ export default function Asteroids(){
                 </div>
                 <div className='col-lg-4 col-md-6 portfolio-item'>
                     <div className='portfolio-wrap'>
-                        <img className='img-fluid img-thumbnail' src='https://i.imgur.com/IaxeKp7.jpg' alt='Weather forecasting website'></img>
+                        <img className='img-fluid img-thumbnail' src='https://i.imgur.com/k3oUFzE.png' alt='Video Game Review Site'></img>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-6 portfolio-item'>
