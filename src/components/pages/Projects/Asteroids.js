@@ -20,6 +20,9 @@ export default function Asteroids(){
                     <li className="fs-6">Use MongoDB to store user-searches and allow users to "like" asteroids</li>
                     <li className="fs-6">Create a sortable table as well as more custom query templates</li>
                 </ul>
+                <div>
+                    <a href="https://github.com/neffej/congenial-asteroid-queryer">Github Link</a>
+                </div>
                 </div>
             </div>
         </section>
