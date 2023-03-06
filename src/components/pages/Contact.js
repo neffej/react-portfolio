@@ -14,22 +14,22 @@ export default function Contact(){
                         <form className='php-email-form'>
                             <div className='row'>
                                 <div className='form-group col-md-6'>
-                                    <label for="name">Your Name</label>
-                                    <input type={Text} name="name" className='form-control' id="name" required>
+                                    <label>Your Name</label>
+                                    <input name="name" className='form-control' id="name" required>
                                     </input>                      
                                 </div>
                                 <div className='form-group col-md-6'>
-                                    <label for="name">Your Email</label>
-                                    <input type={Text} name="email" className='form-control' id="email" required>
+                                    <label>Your Email</label>
+                                    <input name="email" className='form-control' id="email" required>
                                     </input>                      
                                 </div>
                             </div>
                             <div className='form-group'>
-                                <label for="name">Subject</label>
-                                <input type={Text} className="form-control" name="subject" id='subject' required></input>
+                                <label>Subject</label>
+                                <input className="form-control" name="subject" id='subject' required></input>
                             </div>
                             <div className='form-group'>
-                                <label for="name">Message</label>
+                                <label>Message</label>
                                 <textarea className='form-control' name="message" rows="10" required></textarea>
                             </div>
                             <div className='my-3'>
