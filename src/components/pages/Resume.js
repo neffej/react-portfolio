@@ -7,7 +7,8 @@ export default function Resume(){
             <div className="section-title">
                 <h2 id="title">Resumé</h2>
                 <p>
-                    Please see below a small record of my professional achievements.  Resumé downloading is coming soon!
+                    Please see a small record of my professional achievements below.
+                    <em>  Resumé downloading is coming soon!</em>
                 </p>
             </div>
             <div className="row">
