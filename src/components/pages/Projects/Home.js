@@ -1,6 +1,18 @@
 import React from "react";
+import AsteroidGif from '../../assets/Space_Rocks.gif';
+import MyGif from '../../assets/Homepage.gif'
+import GameTrack from '../../assets/GameTrack.gif'
+import Read from '../../assets/README.gif'
+import sql from '../../assets/SQL.gif'
+import Work from '../../assets/network.gif'
 
-export default function Asteroids(){
+
+
+
+
+
+
+export default function Home(){
     return(
 <section id='portfolio' className='portfolio'>
             <div className='container'>
@@ -12,32 +24,32 @@ export default function Asteroids(){
             <div className='row portfolio-container p-2 aos-init aos-animate' data-aos="fade-up" data-aos-delay="100" id='portfolio-container'>
                 <div className='col-lg-4 col-md-6  portfolio-item'>
                     <div className='portfolio-wrap'>
-                        <img className='img-fluid img-thumbnail' src='https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2002/04/typical_orbits_for_inner_solar_system_asteroids/9198180-5-eng-GB/Typical_orbits_for_inner_solar_system_asteroids_pillars.jpg' alt='asteroid database search website'></img>
+                        <img className='img-fluid img-thumbnail' src={AsteroidGif} alt='asteroid database search website'></img>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-6 portfolio-item'>
                     <div className='portfolio-wrap'>
-                        <img className='img-fluid img-thumbnail' src='https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80' alt='TV Show Binge Calculator'></img>
+                        <img className='img-fluid img-thumbnail' src={MyGif} alt='TV Show Binge Calculator'></img>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-6 portfolio-item'>
                     <div className='portfolio-wrap'>
-                        <img className='img-fluid img-thumbnail' src='https://i.imgur.com/k3oUFzE.png' alt='Video Game Review Site'></img>
+                        <img className='img-fluid img-thumbnail' src={GameTrack} alt='Video Game Review Site'></img>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-6 portfolio-item'>
                     <div className='portfolio-wrap'>
-                        <img className='img-fluid img-thumbnail' src='https://www.stockvault.net/data/2022/06/17/293325/preview16.jpg' alt='Social Network with MongoDB'></img>
+                        <img className='img-fluid img-thumbnail' src={Work} alt='Social Network with MongoDB'></img>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-6 portfolio-item'>
                     <div className='portfolio-wrap'>
-                        <img className='img-fluid img-thumbnail' src='https://img.freepik.com/free-vector/realistic-notepad-blank_98292-4733.jpg?w=740&t=st=1678070229~exp=1678070829~hmac=b21cfc7bfb2cd5f64cf0dd725caa284c49ec994c473f2562ef07e021fc63cd0e' alt='README Generator'></img>
+                        <img className='img-fluid img-thumbnail' src={Read} alt='README Generator'></img>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-6 portfolio-item'>
                     <div className='portfolio-wrap'>
-                        <img className='img-fluid img-thumbnail' src='https://freesvg.org/img/terminal_window.png' alt='SQL-Based Employee Profile CLI'></img>
+                        <img className='img-fluid img-thumbnail' src={sql} alt='SQL-Based Employee Profile CLI'></img>
                     </div>
                 </div>
             </div>

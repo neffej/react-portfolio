@@ -1,4 +1,6 @@
 import React from "react";
+import sql from '../../assets/SQL.gif'
+
 
 export default function SQL(){
     return(
@@ -11,7 +13,7 @@ export default function SQL(){
             </div>
             <div className="row project-container p-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" id="project-container">
                 <div className="col-lg-4 portfolio-info">
-                    <a href="https://github.com/neffej/sql-employee-tracker" target="_blank" rel="noreferrer"><img className="img-fluid" src="https://freesvg.org/img/terminal_window.png"></img></a>
+                    <a href="https://github.com/neffej/sql-employee-tracker" target="_blank" rel="noreferrer"><img className="img-fluid" src={sql} alt='functionality gif'></img></a>
                 </div>
                 <div className="col-lg-8 portfolio-info">
                 <p>This project was my first structured foray into SQL and databases.  It is a Command Line Interface that prompts the user through a looping tree of questions which allow the user to build a business' employee base; a user can add employee name, role,  department, salary, and establish who their manager is.  Each entry is stored in a relational database which can be referenced in future queries.  It is an excellent introduction to SQL and MySQL.</p>
