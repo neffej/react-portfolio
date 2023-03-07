@@ -4,7 +4,7 @@ import './Navigation.css';
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="col-12 justify-content-center nav nav-tabs">
+    <ul className="col-12 justify-content-center nav nav-tabs" id='portfolio'>
       <li className="nav-item">
         <a
           href="#portfolio"

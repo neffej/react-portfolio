@@ -14,7 +14,7 @@ import Work from '../../assets/network.gif'
 
 export default function Home(){
     return(
-<section id='portfolio' className='portfolio'>
+<section id='portfolio-container' className='portfolio'>
             <div className='container'>
                 <div className='section-title'>
                     <h2>Portfolio</h2>
