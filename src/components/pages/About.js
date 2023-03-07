@@ -7,7 +7,7 @@ export default function About(){
             <div className='section-title'>
             <h2 id='intro'>About</h2>
             <p>
-                I'm a competitive and results-oriented person who believes that greatness and success is always a team endeavor.  I'm driven to find solutions that work for all shareholders - a good solution makes everyone feel like a winner.  I believe in the value of "intrepreneurship", or finding value and efficiency in existing processes, while recognizing that growth and change are inevitable, exciting, and profitable if they can be accounted for.  I've had a wonderful career in adventure and hospitality with a foray into higher education, and I'm excited to start a new journey in software and technology.
+                I'm a competitive and results-oriented person who believes that greatness and success is always a team endeavor.  I'm driven to find solutions that work for all stakeholders - a good solution makes everyone feel like a winner.  I believe in the value of "intrepreneurship", or finding value and efficiency in existing processes, while recognizing that growth and change are inevitable, exciting, and profitable if they can be accounted for.  I've had a wonderful career in adventure and hospitality with a foray into higher education, and I'm excited to start a new journey in software and technology.
             </p>
 
             </div>
