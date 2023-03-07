@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-profile/static/css/main.19a35479.css",
-    "main.js": "/react-profile/static/js/main.bcbe74f3.js",
+    "main.js": "/react-profile/static/js/main.b5489ae5.js",
     "static/media/Homepage.gif": "/react-profile/static/media/Homepage.f31ec625372a75cbb96c.gif",
     "static/media/SQL.gif": "/react-profile/static/media/SQL.7286830f62df1e3808b1.gif",
     "static/media/Space_Rocks.gif": "/react-profile/static/media/Space_Rocks.c254629e26a5b5b44769.gif",
@@ -10,10 +10,10 @@
     "static/media/GameTrack.gif": "/react-profile/static/media/GameTrack.2c5653b77502257e0756.gif",
     "index.html": "/react-profile/index.html",
     "main.19a35479.css.map": "/react-profile/static/css/main.19a35479.css.map",
-    "main.bcbe74f3.js.map": "/react-profile/static/js/main.bcbe74f3.js.map"
+    "main.b5489ae5.js.map": "/react-profile/static/js/main.b5489ae5.js.map"
   },
   "entrypoints": [
     "static/css/main.19a35479.css",
-    "static/js/main.bcbe74f3.js"
+    "static/js/main.b5489ae5.js"
   ]
 }
