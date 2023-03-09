@@ -32,5 +32,9 @@ No tests are set up for this page.
 ## Questions 
 If you have questions, please visit the source repository on Github (https://www.github.com/neffej) or email me at just.eneff@gmail.com.
 
+https://github.com/neffej/react-portfolio
+https://neffej.github.io/react-portfolio/
+
+
 ## Credits
 Eric Neff

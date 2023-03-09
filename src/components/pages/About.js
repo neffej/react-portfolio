@@ -53,7 +53,7 @@ export default function About(){
                                 <li>
                                 <i className='fa-solid fa-chevron-right'>  </i>
                                     <strong>  Degree: </strong>
-                                    <span>Master's of Science</span>
+                                    <span>Master of Science</span>
                                 </li>
                                 <li>
                                 <i className='fa-solid fa-chevron-right'>  </i>

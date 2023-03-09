@@ -7,7 +7,7 @@ export default function Contact(){
             <div className='container'>
                 <div className='section-title'>
                     <h2>Contact</h2>
-                    <p>Thank you for reading! Please reach out with any questions or opportunities you may have. You can use the form below or click on the email links provided. If you'd like to give me a call, please be aware that I am working while I transition my career and may not pick up the phone, so please a message and I'll get right back to you.</p>
+                    <p>Thank you for reading! Please reach out with any questions or opportunities you may have. You can use the form below or click on the email links provided. If you'd like to give me a call, please be aware that I am working while I transition my career and may not pick up the phone, so please send a message and I'll get right back to you.</p>
                 </div>
                 <div className='row aos-init aos-animate' data-aos="fade-in">
                     <div className='mt-5 mt-lg-00 d-flex align-items-stretch'>
