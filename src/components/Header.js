@@ -7,7 +7,7 @@ export default function Header({ currentPage, handlePageChange }){
             <header className="container-sm site-header bg-light p-15" id="header">
                 <div className="wrap row" id='wrapper'>
                     <div className='profile col-sm-auto bg-dark sticky-top'>
-                        <img src='https://avatars.githubusercontent.com/u/118024182?v=4' className='img-thumbnail rounded-circle m-2' width="250px" />
+                        <img src='https://avatars.githubusercontent.com/u/118024182?v=4' className='img-thumbnail rounded-circle m-2' alt="avatar image"width="250px" />
                          <h1 className='text-light row justify-content-center'>Eric Neff
                         </h1>
                         <div className='social-links mt-3 row justify-content-center'>
