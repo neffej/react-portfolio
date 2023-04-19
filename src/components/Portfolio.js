@@ -6,6 +6,7 @@ import Calculator from './pages/Projects/Calculator';
 import SQL from './pages/Projects/SQL-employees';
 import GameTrack from './pages/Projects/GameTrack';
 import Node from './pages/Projects/Node';
+import Ratings from './pages/Projects/Ratings';
 import Network from './pages/Projects/Network';
 import "./Portfolio.css"
 
@@ -29,8 +30,8 @@ export default function Portfolio(){
         if (currentPage === 'GameTrack'){
             return <GameTrack />;
         }
-        if (currentPage === 'Node'){
-            return <Node />;
+        if (currentPage === 'React'){
+            return <Ratings />;
         }
             return <Network />;
     };

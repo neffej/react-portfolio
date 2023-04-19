@@ -2,7 +2,7 @@ import React from "react";
 import AsteroidGif from '../../assets/Space_Rocks.gif';
 import MyGif from '../../assets/Homepage.gif'
 import GameTrack from '../../assets/GameTrack.gif'
-import Read from '../../assets/README.gif'
+import Ratings from '../../assets/Rateacop.gif'
 import sql from '../../assets/SQL.gif'
 import Work from '../../assets/network.gif'
 
@@ -22,6 +22,11 @@ export default function Home(){
                 </div>
             </div>
             <div className='row portfolio-container p-2 aos-init aos-animate' data-aos="fade-up" data-aos-delay="100" id='portfolio-container'>
+                 <div className='col-lg-4 col-md-6 portfolio-item'>
+                    <div className='portfolio-wrap'>
+                        <img className='img-fluid img-thumbnail' src={Ratings} alt='React Police Rating Website'></img>
+                    </div>
+                </div>
                 <div className='col-lg-4 col-md-6  portfolio-item'>
                     <div className='portfolio-wrap'>
                         <img className='img-fluid img-thumbnail' src={AsteroidGif} alt='asteroid database search website'></img>
@@ -40,11 +45,6 @@ export default function Home(){
                 <div className='col-lg-4 col-md-6 portfolio-item'>
                     <div className='portfolio-wrap'>
                         <img className='img-fluid img-thumbnail' src={Work} alt='Social Network with MongoDB'></img>
-                    </div>
-                </div>
-                <div className='col-lg-4 col-md-6 portfolio-item'>
-                    <div className='portfolio-wrap'>
-                        <img className='img-fluid img-thumbnail' src={Read} alt='README Generator'></img>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-6 portfolio-item'>

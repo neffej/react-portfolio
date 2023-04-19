@@ -18,6 +18,16 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          href="#Node"
+          onClick={() => handlePageChange('React')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'React' ? 'nav-link active fs-4 text-info' : 'nav-link fs-4 text-info'}
+        >
+          React Rater
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
           href="#Asteroids"
           onClick={() => handlePageChange('Asteroids')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -54,16 +64,6 @@ function Navigation({ currentPage, handlePageChange }) {
           className={currentPage === 'Network' ? 'nav-link active fs-4 text-info' : 'nav-link fs-4 text-info'}
         >
           Network
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#Node"
-          onClick={() => handlePageChange('Node')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Node' ? 'nav-link active fs-4 text-info' : 'nav-link fs-4 text-info'}
-        >
-          Node
         </a>
       </li>
       <li className="nav-item">
