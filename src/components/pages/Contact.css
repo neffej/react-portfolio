@@ -5,6 +5,9 @@
     padding-bottom: 130px;
   }
   
+.contact .phone {
+  color: #173b6c
+}
   .contact .info {
     padding: 30px;
     background: #fff;
