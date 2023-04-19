@@ -22,7 +22,9 @@ export default function Node(){
                 </ul>
                 <div>
                     <a href="https://github.com/p0ptartz/rate-a-cop">Github Link</a>
-                    <a href="https://rate-a-cop-acab.herokuapp.com/location/Springfield">Deployed Link</a>
+                </div>
+                <div>
+                    <a href="https://rate-a-cop-acab.herokuapp.com/">Deployed Link</a>
                 </div>
                 </div>
             </div>
