@@ -11,7 +11,7 @@ import "./Portfolio.css"
 
 
 export default function Portfolio(){
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('React');
 
     const renderPage = () => {
         if (currentPage === 'Home'){
