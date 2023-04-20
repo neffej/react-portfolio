@@ -31,34 +31,8 @@ export default function Header({ currentPage, handlePageChange }){
                                     <a href='#portfolio' onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link-active text-light' : 'nav-link text-light'}>
                                         <i className="fa-regular fa-folder fs-6 m-2" id='portfolio-btn'></i> 
                                         Portfolio</a>
-                                    {/* <ul className='row menu'>
-                                        <li className='item' href='#portfolio'>Index</li>
-                                        <li className="item" href="#">Asteroids</li>
-                                        <li className="item" href="#">Calculator</li>
-                                        <li className="item" href="#">Weather</li>
-                                        <li className="item" href="#">Social Network</li>
-                                        <li className="item" href="#">README</li>
-                                        <li className="item" href="#">SQL Employees</li>
-                                    </ul> */}
                                 </li>
-                                {/* <li className='row p-2'>
-                                    <a href="#portfolio" onClick={() => handlePageChange('Asteroids')} className={currentPage === 'Asteroids' ? 'nav-link-active text-light' : 'portfolio-item text-light'}>Asteroids</a>
-                                </li>
-                                <li className='row p-2'>
-                                    <a href="#portfolio" onClick={() => handlePageChange('Calculator')} className={currentPage === 'Calculator' ? 'nav-link-active text-light' : 'portfolio-item text-light'}>Calculator</a>
-                                </li>
-                                <li className='row justify-content-end p-2'>
-                                    <a href="#portfolio" onClick={() => handlePageChange('Weather')} className={currentPage === 'Weather' ? 'nav-link-active text-light' : 'portfolio-item text-light'}>Weather</a>
-                                </li>
-                                <li className='row p-2'>
-                                    <a href="#portfolio" onClick={() => handlePageChange('Network')} className={currentPage === 'Network' ? 'nav-link-active text-light' : 'portfolio-item text-light'}>Social Network</a>
-                                </li>
-                                <li className='row p-2'>
-                                    <a href="#portfolio" onClick={() => handlePageChange('Node')} className={currentPage === 'Node' ? 'nav-link-active text-light' : 'portfolio-item text-light'}>README</a>
-                                </li>
-                                <li className='row p-2'>
-                                    <a href="#portfolio" onClick={() => handlePageChange('SQL')} className={currentPage === 'SQL' ? 'nav-link-active text-light' : 'portfolio-item text-light'}>SQL Employees</a>
-                                </li> */}
+                               
                                 <li className='row '>
                                     <a href="#contact" className='nav-link text-light'><i className="fa-regular fa-paper-plane fs-6 m-2"></i> Contact</a>
                                 </li>
