@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from './components/Header';
 import Hero from './components/pages/Hero'
 import About from './components/pages/About'
@@ -8,14 +8,30 @@ import Portfolio from './components/Portfolio'
  
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Hero');
+
+  const renderPage = () => {
+      if (currentPage === 'Hero'){
+          return <Hero />;
+      }
+      if (currentPage === 'About'){
+          return <About />;
+      }
+      if (currentPage === 'Resume'){
+          return <Resume />;
+      }
+      if (currentPage === 'Portfolio'){
+          return <Portfolio />;
+      }
+          return <Contact />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
   <div>
-    <Header />
-    <Hero />
-    <About/>
-    <Resume />
-    <Portfolio />
-    <Contact />
+    <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+    {renderPage()}
    </div>
   );
 }
