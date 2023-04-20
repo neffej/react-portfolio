@@ -5,7 +5,7 @@ import './Navigation.css';
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="col-12 justify-content-center nav nav-tabs" id='portfolio'>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Home')}
@@ -15,7 +15,7 @@ function Navigation({ currentPage, handlePageChange }) {
         >
           Home
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#Node"
