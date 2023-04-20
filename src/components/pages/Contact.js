@@ -9,6 +9,7 @@ export default function Contact(){
                     <h2>Contact</h2>
                     <p>Thank you for reading! Please reach out with any questions or opportunities you may have. You can use the form below, click on the email links provided, or give me a phone call at the number below.  </p>
                 </div>
+                <div><span id="phone" className='phone fw-bold'>Phone Number: </span>(828)200-0769</div>
                 <div className='row aos-init aos-animate' data-aos="fade-in">
                     <div className='mt-5 mt-lg-00 d-flex align-items-stretch'>
                         <form className='php-email-form'>

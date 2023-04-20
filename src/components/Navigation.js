@@ -20,7 +20,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#Node"
           onClick={() => handlePageChange('React')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `React`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'React' ? 'nav-link active fs-4 text-info' : 'nav-link fs-4 text-info'}
         >
           React Rater
@@ -30,7 +30,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#Asteroids"
           onClick={() => handlePageChange('Asteroids')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `Asteroids`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Asteroids' ? 'nav-link active fs-4 text-info' : 'nav-link fs-4 text-info'}
         >
           Asteroids
@@ -40,7 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#Calculator"
           onClick={() => handlePageChange('Calculator')}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `Calculator`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Calculator' ? 'nav-link active fs-4 text-info' : 'nav-link fs-4 text-info'}
         >
           Calculator
@@ -50,7 +50,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#GameTrack"
           onClick={() => handlePageChange('GameTrack')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `GameTrack`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'GameTrack' ? 'nav-link active fs-4 text-info' : 'nav-link fs-4 text-info'}
         >
           GameTrack
@@ -60,7 +60,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#Network"
           onClick={() => handlePageChange('Network')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `Network`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Network' ? 'nav-link active fs-4 text-info' : 'nav-link fs-4 text-info'}
         >
           Network
@@ -70,7 +70,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#SQL"
           onClick={() => handlePageChange('SQL')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `SQL`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'SQL' ? 'nav-link active fs-4 text-info' : 'nav-link fs-4 text-info'}
         >
           SQL

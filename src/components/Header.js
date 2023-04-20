@@ -13,8 +13,10 @@ export default function Header({ currentPage, handlePageChange }){
                         <div className='social-links mt-3 row justify-content-center'>
                             <a href="https://www.linkedin.com/in/eric-james-neff/" target="_blank" className='linkedIn col-2'><i className="fa-brands fa-linkedin fs-3"></i></a>
                             <a href="https://github.com/neffej" target="_blank" className='github col-2'><i className="fa-brands fa-github fs-3"></i></a>
+
                             <a href="mailto:eric.j.neff@gmail.com" className='email col-2'><i className="fa-regular fa-envelope fs-3"></i></a>
                             {/* <a href="#contact" onClick={()=> handlePageChange('Contact')} className='phone col-2'><i className="fa-solid fa-phone fs-3"></i></a> */}
+
                         </div>
                         <div className='container-fluid' id='navigation'>
                             <ul className='navbar-nav me-auto'>
