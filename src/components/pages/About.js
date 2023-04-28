@@ -41,11 +41,6 @@ export default function About() {
               <ul>
                 <li>
                   <i className='fa-solid fa-chevron-right'> </i>
-                  <strong> Birthday: </strong>
-                  <span>April 1st, 1985</span>
-                </li>
-                <li>
-                  <i className='fa-solid fa-chevron-right'> </i>
                   <strong> Website: </strong>
                   <span>https://github.com/neffej</span>
                 </li>
@@ -63,11 +58,6 @@ export default function About() {
             </div>
             <div className='col-lg-6'>
               <ul>
-                <li>
-                  <i className='fa-solid fa-chevron-right'> </i>
-                  <strong> Age: </strong>
-                  <span>37</span>
-                </li>
                 <li>
                   <i className='fa-solid fa-chevron-right'> </i>
                   <strong> Degree: </strong>
