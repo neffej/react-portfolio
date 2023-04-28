@@ -8,8 +8,8 @@ export default function Resume(){
                 <h2 id="title">Resumé</h2>
                 <p>
                     Please see a small record of my professional achievements below.
-                    <em>  Resumé downloading is coming soon!</em>
                 </p>
+                <a href="../static/media/eric_neff_resume.pdf" target="_blank">Resumé</a>
             </div>
             <div className="row">
                 <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up">
